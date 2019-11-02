@@ -1,0 +1,10 @@
+/etc/resolv.conf
+
+The resolv.conf file contains a list of IP addresses of nameservers for resolution.
+Additional name server directives after the first are only used when the first or last used server is unavailable.
+
+example:
+
+nameserver		1.1.1.1
+nameserver		8.8.8.8
+nameserver		9.9.9.9

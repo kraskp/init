@@ -1,0 +1,10 @@
+First, find IP address of slash16.org by executing the following command:
+
+nslookup slash16.org
+
+This tells us that the IP address is 12.33.242.162.
+Second, we execute the following command:
+
+whois 13.33.242.162
+
+This tells us that Amazon Technologies Inc. is the provider.
