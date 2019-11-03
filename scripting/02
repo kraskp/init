@@ -1,0 +1,15 @@
+#!/bin/bash
+# Script to delete an active user on the VM
+
+# Usage: ./02 [username]
+
+## First, check if user exists using getent command
+user_exists=$(getent passwd $1)
+
+##print error message if no user, otherwise delete
+if [ -z "$user_exists" ]
+then
+		echo "User $1 does not exist"
+else
+		sudo userdel -rf "$1"
+fi

@@ -1,0 +1,4 @@
+#!/bin/bash
+# Script to display login, UID and path for each entry in /etc/passwd (delimited by :)
+
+awk -F: '{print $1 ":" $3 ":" $6}' /etc/passwd
