@@ -1,0 +1,9 @@
+To connect as a different user in a graphic session:
+	su [username]
+Then enter the password for that username.
+
+To conenct as a different user in an ssh session:
+	ssh username@ipaddress
+in my case
+	ssh kenny@10.12.181.124
+Then etner the password for that user name.
