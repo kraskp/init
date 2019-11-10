@@ -11,5 +11,5 @@ if [ -z "$user_exists" ]
 then
 		echo "User $1 does not exist"
 else
-		sudo userdel -rf "$1"
+		sudo pkill -u "$1"; sudo userdel -rf "$1"; sudo rm -rf /home/"$1"
 fi
