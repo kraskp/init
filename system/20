@@ -1,1 +1,1 @@
-awk -F: '{print $1}' /etc/passwd
+getent passwd | awk -F: '{print $1}'

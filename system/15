@@ -1,1 +1,1 @@
-sudo pkill tail
+sudo kill -9 `jobs -l | grep -m 1 "sudo nohup tail -f /var/log/syslog &" | awk '{print $2}'`

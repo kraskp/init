@@ -1,1 +1,2 @@
-ls /etc/rc*.d
+ls /etc/init.d
+#these are daemons

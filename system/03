@@ -1,1 +1,2 @@
+To permanently rename your system, you must modify this file:
 /etc/hostname

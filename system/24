@@ -1,1 +1,1 @@
-apt list --installed
+sudo apt list --installed

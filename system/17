@@ -1,1 +1,2 @@
-ssh root@10.12.181.124
+ssh -p [port] [username]@[host]
+ssh -p 22 kenny@10.12.181.124

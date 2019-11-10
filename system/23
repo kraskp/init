@@ -3,7 +3,7 @@ To connect as a different user in a graphic session:
 Then enter the password for that username.
 
 To conenct as a different user in an ssh session:
-	ssh username@ipaddress
+	ssh -p [port] [user]@[host]
 in my case
-	ssh kenny@10.12.181.124
-Then etner the password for that user name.
+	ssh -p 22 kenny@10.12.181.124
+Then enter the password for that user name.
