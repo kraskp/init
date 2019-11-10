@@ -1,0 +1,4 @@
+#!/bin/bash
+#THIS IS A COMMENT
+echo Hello World		#Comment
+#COMMENT
